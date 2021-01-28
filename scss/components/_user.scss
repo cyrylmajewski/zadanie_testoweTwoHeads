@@ -1,5 +1,7 @@
 .user {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .user__pic {
@@ -17,7 +19,7 @@
 .user__title {
   font-family: OpenSans;
   text-transform: uppercase;
-  color: $maingit;
+  color: $main;
   font-size: 14px;
   font-weight: bold;
 }
