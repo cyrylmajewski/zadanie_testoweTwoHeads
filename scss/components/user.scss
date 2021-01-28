@@ -1,0 +1,23 @@
+.user {
+  display: flex;
+}
+
+.user__pic {
+  width: 30px;
+  height: 30px;
+  margin-right: 9px;
+}
+
+.user__pic-item {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.user__title {
+  font-family: OpenSans;
+  text-transform: uppercase;
+  color: $maingit;
+  font-size: 14px;
+  font-weight: bold;
+}

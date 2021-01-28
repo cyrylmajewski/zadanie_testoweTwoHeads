@@ -1,0 +1,16 @@
+.wrapper {
+  height: 100vh;
+  position: relative;
+}
+
+.wrapper__corner {
+  width: 704px;
+  height: 694px;
+  padding: 37px 44px 45px 214px;
+  background-blend-mode: multiply;
+  background-image: linear-gradient(to bottom, #4e74ff, #4e74ff);
+  position: absolute;
+  transform: rotate(45deg);
+  bottom: -351px;
+  right: -365px;
+}
