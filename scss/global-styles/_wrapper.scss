@@ -9,14 +9,18 @@ html, body, .wrapper {
 }
 
 .wrapper__corner {
-  width: 704px;
+  width: 989px;
   height: 694px;
-  padding: 37px 44px 45px 214px;
-  background-blend-mode: multiply;
   background-image: linear-gradient(to bottom, #4e74ff, #4e74ff);
   position: absolute;
-  transform: rotate(45deg);
-  bottom: -351px;
-  right: -365px;
+  bottom: -243px;
+  right: -402px;
+  transform: rotate(-45deg);
   z-index: -1;
+
+  @include tablets {
+    bottom: -511px;
+    right: -454px;
+    transform: rotate(-28deg);
+  }
 }

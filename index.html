@@ -6,22 +6,24 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Zadanie - twoheads</title>
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
 	<div class="wrapper">
 		<main class="page-home">
-			<div class="container">
-				<header class="header">
-					<div class="row">
-						<div class="col-xl-1">
+			<header class="header">
+				<div class="container-fluid">
+					<div class="row align-items-center">
+						<div class="col-xl-1 col-lg-1 d-lg-block d-md-none d-sm-none d-none">
 							<a href="#" class="logo">
 								<div class="logo__item"></div>
 							</a>
 						</div>
-						<div class="col-xl-5">
+						<div class="col-xl-5 col-lg-5 d-md-none d-sm-none d-lg-block d-none">
 							<nav class="menu">
 								<ul class="menu__list">
-									<li class="menu__item">
+									<li class="menu__item menu__item--active">
 										<a href="#" class="menu__link">home</a>
 									</li>
 									<li class="menu__item">
@@ -32,14 +34,16 @@
 									</li>
 									<li class="menu__item">
 										<a href="#" class="menu__link">messages</a>
+										<div class="menu__info">17</div>
 									</li>
 									<li class="menu__item">
 										<a href="#" class="menu__link">tasks</a>
+										<div class="menu__info">35</div>
 									</li>
 								</ul>
 							</nav>
 						</div>
-						<div class="col-xl-2 offset-xl-4">
+						<div class="col-xl-2 offset-xl-4 col-lg-2 offset-lg-4 col-md-3 col-sm-3 col-10">
 							<div class="user">
 								<div class="user__pic">
 									<img src="/images/icons/monkee.png" alt="" class="user__pic-item">
@@ -47,13 +51,143 @@
 								<div class="user__title">monkee</div>
 							</div>
 						</div>
+						<div class="col-md-1 offset-md-8 col-sm-1 offset-sm-8 d-xl-none d-lg-none col-2">
+							<div class="burger">
+								<span></span>
+								<span></span>
+								<span></span>
+							</div>
+						</div>
 					</div>
-				</header>
-				<div class="content">
-
+				</div>
+			</header>
+			<div class="content">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-xl-6 col-lg-6 col-md-12">
+							<div class="row">
+								<div class="col-12">
+									<h1 class="content__title">
+										<span>
+											HELLO DUDE, <br>
+										HOW ARE YOU
+										TODAY?
+										</span>
+									</h1>
+								</div>
+							</div>
+							<div class="row d-flex flex-column justify-content-center">
+								<div class="col-12">
+									<div class="info">
+										<a href="#" class="info__link">
+											<div class="info__pic info__pic--tasks">
+												<img src="/images/icons/tasks.png" alt="tasks" class="info__pic-item info__pic-item--tasks">
+											</div>
+											<span>Tasks</span>
+										</a>
+									</div>
+								</div>
+								<div class="col-12">
+									<div class="info">
+										<a href="#" class="info__link">
+											<div class="info__pic info__pic--messages">
+												<img src="/images/icons/message.png" alt="messages" class="info__pic-item info__pic-item--messages">
+											</div>
+											<span>Messages</span>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-6 mr-auto d-lg-block d-md-block d-sm-none d-none">
+									<div class="skill">
+										<div class="skill__pic">
+											<img src="/images/icons/matija.png" alt="matija" class="skill__pic-item">
+										</div>
+										<div class="skill__content">
+											<div class="skill__text">Working on HTML</div>
+											<div class="skill__progress skill__progress--html"></div>
+										</div>
+									</div>
+									<div class="skill">
+										<div class="skill__pic">
+											<img src="/images/icons/ante.png" alt="ante" class="skill__pic-item">
+										</div>
+										<div class="skill__content">
+											<div class="skill__text">Working on CSS</div>
+											<div class="skill__progress skill__progress--css"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-5 offset-xl-1 col-lg-5 offset-lg-1 col-md-5 mr-auto d-xl-block d-lg-block d-md-none d-sm-none d-none">
+							<div class="content__calendar">
+								<div class="calendar">
+									<div class="calendar__day">27</div>
+									<div class="calendar__month">may</div>
+									<ul class="calendar__list">
+										<li class="calendar__item"></li>
+										<li class="calendar__item"></li>
+										<li class="calendar__item">1</li>
+										<li class="calendar__item">2</li>
+										<li class="calendar__item">3</li>
+										<li class="calendar__item">4</li>
+										<li class="calendar__item">5</li>
+										<li class="calendar__item">6</li>
+										<li class="calendar__item">7</li>
+										<li class="calendar__item">8</li>
+										<li class="calendar__item">9</li>
+										<li class="calendar__item">10</li>
+										<li class="calendar__item">11</li>
+										<li class="calendar__item">12</li>
+										<li class="calendar__item">13</li>
+										<li class="calendar__item">14</li>
+										<li class="calendar__item">15</li>
+										<li class="calendar__item">16</li>
+										<li class="calendar__item">17</li>
+										<li class="calendar__item">18</li>
+										<li class="calendar__item">19</li>
+										<li class="calendar__item">20</li>
+										<li class="calendar__item">21</li>
+										<li class="calendar__item">22</li>
+										<li class="calendar__item">23</li>
+										<li class="calendar__item">24</li>
+										<li class="calendar__item">25</li>
+										<li class="calendar__item">26</li>
+										<li class="calendar__item active">27</li>
+										<li class="calendar__item">28</li>
+										<li class="calendar__item">29</li>
+										<li class="calendar__item">30</li>
+										<li class="calendar__item"></li>
+										<li class="calendar__item"></li>
+										<li class="calendar__item"></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</main>
+		<footer class="footer">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-xl-1 col-lg-1 d-xl-block d-lg-block d-md-none d-sm-none d-none">
+						<div class="footer__switch">
+							<div class="switch">
+								<div class="switch__item switch__item--active"></div>
+								<div class="switch__item"></div>
+								<div class="switch__item"></div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-4 offset-xl-7 col-lg-4 offset-lg-7 col-md-4 offset-md-8">
+						<div class="footer__rights">DAILY OVERVIEW POWERED BY <span>UNIFIED ANALYTICS</span></div>
+					</div>
+				</div>
+			</div>
+		</footer>
 		<div class="wrapper__corner"></div>
 	</div>
 	<!-- / page-home -->

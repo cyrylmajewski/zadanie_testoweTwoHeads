@@ -1,23 +1,26 @@
 .content {
   height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .content__title {
-  font-family: OpenSans;
+  display: block;
+  width: 100%;
+  max-width: 467px;
   font-size: 64px;
   font-weight: 900;
   background-image: linear-gradient(166deg, #4e74ff -3%, #2046d1 118%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  margin-bottom: 92px;
+  @include tablets {
+    font-size: 54px;
+  }
 }
 
-.content__tasks {
-  color: #42444d;
-  font-size: 20px;
-  font-family: OpenSans;
-  font-weight: bold;
-}
 
 .content__calendar {
   width: 350px;
