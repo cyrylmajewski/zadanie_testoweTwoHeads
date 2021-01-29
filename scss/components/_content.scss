@@ -19,6 +19,12 @@
   @include tablets {
     font-size: 54px;
   }
+  @include phones {
+    font-size: 46px;
+  }
+  @include smallPhones {
+    font-size: 40px;
+  }
 }
 
 
