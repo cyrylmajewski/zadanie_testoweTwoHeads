@@ -1,5 +1,8 @@
 .info {
   margin-bottom: 84px;
+  @include desktop {
+    margin-bottom: 40px;
+  }
 }
 
 .info__link {
