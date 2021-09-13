@@ -1,0 +1,18 @@
+.switch {
+  display: flex;
+}
+
+.switch__item {
+  width: 6px;
+  height: 6px;
+  background-color: #bebebe;
+  border-radius: 50%;
+  margin-right: 4px;
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &--active {
+    background-color: #4e74ff;
+  }
+}

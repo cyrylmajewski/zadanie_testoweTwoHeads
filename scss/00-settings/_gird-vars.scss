@@ -25,8 +25,7 @@
     $min-sm: 576px;
     $min-md: 768px;
     $min-lg: 992px;
-    $min-xl: 1280px;
-    // $min-xl: 1200px;
+    $min-xl: 1200px;
 
     $max-xs: 575px;
     $max-sm: 767px;
@@ -42,3 +41,37 @@
     $md: "only screen and (min-width: #{$min-md})";
     $lg: "only screen and (min-width: #{$min-lg})";
     $xl: "only screen and (min-width: #{$min-xl})";
+
+
+/* Mixins
+   ========================================================================== */
+
+@mixin desktopHd() {
+    @media screen and (max-width: $min-xl) {
+        @content;
+    }
+}
+
+@mixin desktop() {
+    @media screen and (max-width: $min-lg) {
+        @content;
+    }
+}
+
+@mixin tablets() {
+    @media screen and (max-width: $min-md) {
+        @content;
+    }
+}
+
+@mixin phones() {
+    @media screen and (max-width: $min-sm) {
+        @content;
+    }
+}
+
+@mixin smallPhones() {
+    @media screen and (max-width: $max-xs) {
+        @content;
+    }
+}
